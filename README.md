@@ -72,7 +72,9 @@ If no recognized module system is present, access bundle contents via the global
 ```html
 <script type="text/javascript">
 (function () {
+(function () {
     window.logcdf;
+})();
 })();
 </script>
 ```
@@ -151,6 +153,7 @@ y = mylogcdf( 0.0 );
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-exponential-logcdf@umd/browser.js"></script>
 <script type="text/javascript">
 (function () {
+(function () {
 
 var lambda;
 var x;
@@ -164,6 +167,7 @@ for ( i = 0; i < 10; i++ ) {
     console.log( 'x: %d, λ: %d, ln(F(x;λ)): %d', x, lambda, y );
 }
 
+})();
 })();
 </script>
 </body>
