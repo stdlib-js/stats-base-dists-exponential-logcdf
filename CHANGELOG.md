@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-01-02)
+## Unreleased (2025-01-12)
 
 <section class="features">
 
@@ -34,6 +34,7 @@ This release closes the following issue:
 
 <details>
 
+-   [`f3df15f`](https://github.com/stdlib-js/stdlib/commit/f3df15f118d563573f27d2d2b96e35b842f05a18) - **chore:** directly draw from the desired distribution instead of adding constants _(by Philipp Burckhardt)_
 -   [`0d52a8a`](https://github.com/stdlib-js/stdlib/commit/0d52a8a0eec7221c0147185c4ce3317db0458498) - **chore:** minor clean-up _(by Philipp Burckhardt)_
 -   [`743b72e`](https://github.com/stdlib-js/stdlib/commit/743b72eeacfb44801345377b14db54b06add5468) - **feat:** add C implementation for `stats/base/dists/exponential/logcdf` [(#4174)](https://github.com/stdlib-js/stdlib/pull/4174) _(by Prashant Kumar Yadav, Philipp Burckhardt)_
 
